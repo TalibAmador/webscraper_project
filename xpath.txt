@@ -1,5 +1,5 @@
-XPATH_LINK_TO_ARTICLE = "//div/h2/a/@href"
-XPATH_TITLE = "//div/h2/a/text()"
+XPATH_LINK_TO_ARTICLE = "//div/text-fill/a/@href"
+XPATH_TITLE = "//div/text-fill/a/text()"
 XPATH_SUMMARY = "//div[@class='lead']/p/text()"
 XPATH_BODY = "//div[@class='html-content']/p/text()"
 
