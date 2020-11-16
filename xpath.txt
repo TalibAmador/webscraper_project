@@ -1,0 +1,10 @@
+XPATH_LINK_TO_ARTICLE = "//div/text-fill/a/@href"
+XPATH_TITLE = "//div/text-fill/a/text()"
+XPATH_SUMMARY = "//div[@class='lead']/p/text()"
+XPATH_BODY = "//div[@class='html-content']/p/text()"
+
+XPATH_LINK_TO_ARTICLE = "//div/text-fill/a[@class='economiaSect']/@href"
+XPATH_TITLE = "//text-fill/a[@class = 'economiaSect']/text()"
+XPATH_SUMMARY = "//div[@class='lead']/p/text()"
+XPATH_BODY = "//div[@class='html-content']/p/text()"
+
